@@ -1,0 +1,16 @@
+:root {
+  /* margins */
+  --margin-profile-container: 10px;
+
+  /* paddings */
+  --padding-header: 25px;
+  --padding-profile-title: 10% 10% 0% 10%;
+
+  /* colors */
+  --white: #ffffff;
+  --black: #111111;
+  --tea-rose: #E8C1C5;
+
+  /* background-color */
+  --background-color-homepage: var(--tea-rose);
+}

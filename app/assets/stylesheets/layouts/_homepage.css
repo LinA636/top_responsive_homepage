@@ -1,0 +1,37 @@
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* Introduction Section */
+.introduction-section {
+  padding: var(--padding-header);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-container {
+  position: relative;
+  margin: var(--margin-profile-container);
+}
+
+.profile-container .title {
+  position: absolute;
+  transform: translateY(-100%);
+  width: 100%;
+  padding: var(--padding-profile-title);
+}
+
+.about-me h2{
+  text-align: center;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

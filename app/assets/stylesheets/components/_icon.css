@@ -1,3 +1,8 @@
-.icon-size-large {
-  font-size: var(--icon-size-large);
+.icon-size-about-me-section {
+  font-size: var(--icon-size-about-me-section);
+}
+
+
+.icon-size-contact-section {
+  font-size: var(--icon-size-contact-section)
 }

@@ -16,6 +16,9 @@
   --teal: #10838E;
 
 
+  /* icon size */
+  --icon-size-large: 25px;
+
 
   /* background-color */
   --background-color-homepage: var(--teal);

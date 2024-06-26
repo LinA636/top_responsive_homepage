@@ -28,6 +28,7 @@
   --border-color: var(--black);
 
   /* gaps */
+  --gap-about-me-container: 15px;
   --gap-project-cards: 20px;
   --gap-contact-container: 20px;
 

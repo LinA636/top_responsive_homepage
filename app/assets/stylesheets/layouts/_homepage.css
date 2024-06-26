@@ -24,8 +24,13 @@ body {
   padding: var(--padding-profile-title);
 }
 
-.about-me h2{
-  text-align: center;
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+
+  gap: var(--gap-about-me-container);
 }
 
 

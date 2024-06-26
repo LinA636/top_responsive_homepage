@@ -3,8 +3,9 @@
   --margin-profile-container: 10px;
 
   /* paddings */
-  --padding-header: 25px;
+  --padding-homepage: 25px;
   --padding-profile-title: 10% 10% 0% 10%;
+  --padding-profile-card: 15px;
 
   /* colors */
   --white: #ffffff;
@@ -13,4 +14,15 @@
 
   /* background-color */
   --background-color-homepage: var(--tea-rose);
+
+  /* border */
+  --border-weight: 0.5px;
+  --border-color: var(--black);
+
+  /* gaps */
+  --gap-project-cards: 20px;
+
+  /* heights */
+  --max-height-project-picture: 200px;
+  --min-height-project-description-container: 150px;
 }

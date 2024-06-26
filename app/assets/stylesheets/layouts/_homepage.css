@@ -5,7 +5,7 @@ body {
 
 /* Introduction Section */
 .introduction-section {
-  padding: var(--padding-header);
+  padding: var(--padding-homepage);
 
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@ body {
   margin: var(--margin-profile-container);
 }
 
-.profile-container .title {
+.profile-container h1 {
   position: absolute;
   transform: translateY(-100%);
   width: 100%;
@@ -38,5 +38,12 @@ body {
 
 /* project section */
 .project-section {
-  
+  padding: var(--padding-homepage);
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--gap-project-cards);
 }

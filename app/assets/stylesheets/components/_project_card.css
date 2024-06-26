@@ -1,3 +1,41 @@
-.project_card {
+.project-card {
+  border: var(--border-weight) solid var(--border-color);
 
+  max-width: 300px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.project-description-container {
+  padding: var(--padding-profile-card);
+  min-height: var(--min-height-project-description-container);
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.project-picture {
+  max-height: var(--max-height-project-picture);
+  width: auto;
+  object-fit: cover;
+}
+
+.project-name {
+  grid-column: 1 /span 3;
+  grid-row: 1 / span 1;
+}
+
+.project-description-container .links-container{
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.project-description {
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 2;
 }

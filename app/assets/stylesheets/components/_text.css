@@ -1,3 +1,15 @@
+.light-font {
+  color: var(--white);
+}
+
+.dark-font {
+  color: var(--licorice);
+}
+
+.text-shadow {
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
 h1, h2 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;

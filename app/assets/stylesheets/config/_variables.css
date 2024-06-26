@@ -11,9 +11,14 @@
   --white: #ffffff;
   --black: #111111;
   --tea-rose: #E8C1C5;
+  --mint-green:#DAFFED;
+  --caribean-current: #127780;
+  --teal: #10838E;
+
+
 
   /* background-color */
-  --background-color-homepage: var(--tea-rose);
+  --background-color-homepage: var(--teal);
 
   /* border */
   --border-weight: 0.5px;
@@ -21,6 +26,7 @@
 
   /* gaps */
   --gap-project-cards: 20px;
+  --gap-contact-container: 20px;
 
   /* heights */
   --max-height-project-picture: 200px;

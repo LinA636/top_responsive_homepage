@@ -28,13 +28,6 @@ body {
   text-align: center;
 }
 
-.links-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
 
 /* project section */
 .project-section {
@@ -46,4 +39,64 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   gap: var(--gap-project-cards);
+}
+
+/* contact section */
+.contact-section { 
+  background-color: var(--background-color-homepage);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.contact-me {
+  padding: var(--padding-homepage);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  gap: var(--gap-contact-container);
+}
+
+.contact-details-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  align-items: center;
+  justify-items: start;
+}
+
+.icon-phone {
+  grid-column: 1/2;
+  grid-row: 1/2;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.icon-email {
+  grid-column: 1/2;
+  grid-row: 2/3;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.phone-number {
+  grid-column: 2/3;
+  grid-row: 1/2;
+
+  padding-left: 5px;
+}
+
+.email {
+  grid-column: 2/3;
+  grid-row: 2/3;
+
+  padding-left: 5px;
 }
